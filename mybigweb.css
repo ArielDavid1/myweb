@@ -1,0 +1,103 @@
+﻿@import url('https://fonts.googleapis.com/css?family=Akronim|Caveat|Knewave|Rajdhani|Roboto|Shadows+Into+Light|Tomorrow|Trade+Winds&display=swap');
+body{
+background: url("https://tinyurl.com/slo3ygh");
+}
+.nav {
+    height: 50px;
+    background: black;
+}
+
+.nav div {
+display: inline-block;
+position: absolute;
+left: 0;
+padding: 15px;
+font-size: 20px;
+color: red;
+
+}
+
+
+.nav ul {
+position: absolute;
+right: 5px;
+}
+
+.nav ul li {
+display: inline-block;
+}
+
+.nav img {
+width: 50px;
+height: 50px;
+}
+
+.nav ul li a {
+color: red;
+padding: 5px
+}
+
+.center{
+text-align: center;
+}
+
+.about-content{
+color: red;
+margin: 150px auto 0 auto;
+width: 500px;
+}
+
+.about-content h1{ 
+text-align: center; 
+font-family: 'Akronim', sans-serif; 
+}
+
+.about-content p{
+font-family: 'Tomorrow', sans-serif; 
+text-align: justify;
+}
+
+.services-content h1{ 
+text-align: center; 
+font-family: 'Akronim', sans-serif;
+color: red; 
+}
+
+.services-content{
+margin: 80px auto 0 auto;
+text-align: center;
+}
+
+.services-content .card-container ul{
+padding: 0;
+}
+
+.services-content .card-container ul li {
+list-style: none;
+display: inline-block;
+margin: 20px;
+width: 300px
+}
+
+.services-content .card-container ul li p {
+text-align: justify;
+font-family: Trade Winds;
+}
+
+.services-content .card-container ul li img{
+width: 200px;
+height: 130px;
+}
+
+.contact-content{
+margin: 80px auto 0 auto;
+text-align: center;
+}
+
+.contact-content h1{
+font-family: Trade Winds, sans-serif;
+}
+
+.contact-content h4{
+font-family: Knewave;
+}
